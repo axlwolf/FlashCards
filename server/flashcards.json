@@ -1,0 +1,244 @@
+{
+  "flashcards": [
+    {
+      "id": "flashcard1",
+      "title": "JavaScript: Tipos de datos",
+      "description": "Describe los tipos de datos primitivos en JavaScript.",
+      "question": "¿Cuáles son los tipos de datos primitivos en JavaScript?",
+      "answer": "Los tipos de datos primitivos en JavaScript son: string, number, boolean, null, undefined, symbol y bigint.",
+      "user_id": "user1"
+    },
+    {
+      "id": "flashcard2",
+      "title": "JavaScript: Scope",
+      "description": "Explica el concepto de scope en JavaScript.",
+      "question": "¿Qué es el scope en JavaScript y cómo funciona?",
+      "answer": "El scope determina la accesibilidad (visibilidad) de las variables en JavaScript. Hay dos tipos de scope: global y local. Las variables declaradas fuera de cualquier función tienen un scope global, mientras que las variables declaradas dentro de una función tienen un scope local.",
+      "user_id": "user2"
+    },
+    {
+      "id": "flashcard3",
+      "title": "JavaScript: Closures",
+      "description": "Define qué son los closures en JavaScript.",
+      "question": "¿Qué es un closure en JavaScript y cómo se utiliza?",
+      "answer": "Un closure es una función que tiene acceso a su propio scope, al scope de la función externa que la encierra, y al scope global, incluso después de que la función externa haya terminado de ejecutarse.",
+      "user_id": "user3"
+    },
+    {
+      "id": "flashcard4",
+      "title": "TypeScript: Tipado estático",
+      "description": "Explica la importancia del tipado estático en TypeScript.",
+      "question": "¿Por qué es importante el tipado estático en TypeScript?",
+      "answer": "El tipado estático en TypeScript ayuda a detectar errores en tiempo de compilación, mejorar la legibilidad del código y facilitar la refactorización.",
+      "user_id": "user4"
+    },
+    {
+      "id": "flashcard5",
+      "title": "TypeScript: Interfaces",
+      "description": "Describe cómo se utilizan las interfaces en TypeScript.",
+      "question": "¿Cómo se definen y utilizan las interfaces en TypeScript?",
+      "answer": "Las interfaces en TypeScript se utilizan para definir la forma de un objeto, especificando los tipos de sus propiedades y métodos.",
+      "user_id": "user5"
+    },
+    {
+      "id": "flashcard6",
+      "title": "Angular: Componentes",
+      "description": "Explica el concepto de componentes en Angular.",
+      "question": "¿Qué son los componentes en Angular y cómo se relacionan entre sí?",
+      "answer": "Los componentes son los bloques de construcción básicos de las aplicaciones Angular. Cada componente encapsula una parte de la interfaz de usuario y su lógica asociada.",
+      "user_id": "user6"
+    },
+    {
+      "id": "flashcard7",
+      "title": "Angular: Directivas",
+      "description": "Describe los diferentes tipos de directivas en Angular.",
+      "question": "¿Cuáles son los tipos de directivas en Angular y cómo se utilizan?",
+      "answer": "Las directivas en Angular se utilizan para manipular el DOM. Hay tres tipos principales: directivas de componentes, directivas estructurales y directivas de atributos.",
+      "user_id": "user7"
+    },
+    {
+      "id": "flashcard8",
+      "title": "Angular: Servicios",
+      "description": "Explica el propósito de los servicios en Angular.",
+      "question": "¿Qué son los servicios en Angular y cómo se utilizan?",
+      "answer": "Los servicios en Angular se utilizan para encapsular la lógica de negocio y compartir datos entre componentes.",
+      "user_id": "user8"
+    },
+    {
+      "id": "flashcard9",
+      "title": "Angular: Pipes",
+      "description": "Describe cómo se utilizan los pipes en Angular.",
+      "question": "¿Qué son los pipes en Angular y cómo se utilizan?",
+      "answer": "Los pipes en Angular se utilizan para transformar datos en la vista, por ejemplo, para formatear fechas o números.",
+      "user_id": "user9"
+    },
+    {
+      "id": "flashcard10",
+      "title": "Angular: Módulos",
+      "description": "Explica la importancia de los módulos en Angular.",
+      "question": "¿Qué son los módulos en Angular y cómo se organizan?",
+      "answer": "Los módulos en Angular se utilizan para organizar la aplicación en unidades cohesivas. El módulo principal es AppModule, y se pueden crear módulos adicionales para features o funcionalidades específicas.",
+      "user_id": "user10"
+    },
+    {
+      "id": "flashcard11",
+      "title": "Angular: Data Binding",
+      "description": "Describe los tipos de data binding en Angular.",
+      "question": "¿Cuáles son los diferentes tipos de data binding en Angular?",
+      "answer": "Angular soporta varios tipos de data binding, incluyendo interpolación, property binding, event binding, y two-way binding.",
+      "user_id": "user11"
+    },
+    {
+      "id": "flashcard12",
+      "title": "Angular: Routing",
+      "description": "Explica cómo funciona el routing en Angular.",
+      "question": "¿Cómo se configura y utiliza el routing en Angular para navegar entre diferentes vistas?",
+      "answer": "El routing en Angular se configura utilizando el módulo RouterModule. Se definen rutas que asocian URLs con componentes, permitiendo la navegación entre diferentes vistas de la aplicación.",
+      "user_id": "user12"
+    },
+    {
+      "id": "flashcard13",
+      "title": "Angular: Dependency Injection",
+      "description": "Describe el concepto de dependency injection en Angular.",
+      "question": "¿Qué es la dependency injection en Angular y cómo se utiliza?",
+      "answer": "La dependency injection es un patrón de diseño que permite a los componentes recibir dependencias (servicios) de forma externa, en lugar de crearlas ellos mismos. Esto promueve la modularidad y la testabilidad.",
+      "user_id": "user13"
+    },
+    {
+      "id": "flashcard14",
+      "title": "JavaScript: Asincronía",
+      "description": "Explica cómo se maneja la asincronía en JavaScript.",
+      "question": "¿Cómo se maneja la asincronía en JavaScript con callbacks, promesas y async/await?",
+      "answer": "JavaScript utiliza callbacks, promesas y async/await para manejar operaciones asíncronas, como solicitudes a APIs o la lectura de archivos.",
+      "user_id": "user14"
+    },
+    {
+      "id": "flashcard15",
+      "title": "TypeScript: Generics",
+      "description": "Describe el concepto de generics en TypeScript.",
+      "question": "¿Qué son los generics en TypeScript y cómo se utilizan?",
+      "answer": "Los generics en TypeScript permiten escribir código reutilizable que puede trabajar con diferentes tipos de datos sin perder la información de tipos.",
+      "user_id": "user15"
+    },
+    {
+      "id": "flashcard16",
+      "title": "Angular: Formularios Reactivos",
+      "description": "Explica cómo funcionan los formularios reactivos en Angular.",
+      "question": "¿Cómo se crean y gestionan los formularios reactivos en Angular?",
+      "answer": "Los formularios reactivos en Angular se construyen utilizando el módulo ReactiveFormsModule. Permiten un control granular sobre la validación y el manejo de datos de formularios.",
+      "user_id": "user16"
+    },
+    {
+      "id": "flashcard17",
+      "title": "Angular: HTTP Client",
+      "description": "Describe cómo se utiliza el HTTP Client en Angular.",
+      "question": "¿Cómo se utiliza el HttpClient en Angular para realizar solicitudes HTTP?",
+      "answer": "El HttpClient en Angular se utiliza para realizar solicitudes HTTP a APIs. Permite realizar solicitudes GET, POST, PUT, DELETE, etc., y manejar las respuestas.",
+      "user_id": "user17"
+    },
+    {
+      "id": "flashcard18",
+      "title": "JavaScript: DOM",
+      "description": "Explica qué es el DOM en JavaScript.",
+      "question": "¿Qué es el DOM (Document Object Model) en JavaScript?",
+      "answer": "El DOM es una representación en forma de árbol de los elementos HTML de una página web. JavaScript puede interactuar con el DOM para modificar el contenido, la estructura y el estilo de la página.",
+      "user_id": "user18"
+    },
+    {
+      "id": "flashcard19",
+      "title": "TypeScript: Decoradores",
+      "description": "Describe cómo se utilizan los decoradores en TypeScript.",
+      "question": "¿Qué son los decoradores en TypeScript y cómo se utilizan?",
+      "answer": "Los decoradores en TypeScript son funciones que se pueden adjuntar a clases, métodos o propiedades para modificar su comportamiento.",
+      "user_id": "user19"
+    },
+    {
+      "id": "flashcard20",
+      "title": "Angular: Testing",
+      "description": "Explica la importancia de las pruebas en Angular.",
+      "question": "¿Cómo se realizan pruebas unitarias y de integración en Angular?",
+      "answer": "Las pruebas en Angular son importantes para asegurar la calidad del código. Se pueden realizar pruebas unitarias para componentes, servicios, etc., y pruebas de integración para verificar la interacción entre diferentes partes de la aplicación.",
+      "user_id": "user20"
+    },
+    {
+      "id": "flashcard21",
+      "title": "JavaScript: Hoisting",
+      "description": "Explica el concepto de hoisting en JavaScript.",
+      "question": "¿Qué es el hoisting en JavaScript y cómo afecta a las variables y funciones?",
+      "answer": "El hoisting es un mecanismo en JavaScript que mueve las declaraciones de variables y funciones al principio de su scope. Esto puede causar comportamientos inesperados si no se comprende correctamente.",
+      "user_id": "user21"
+    },
+    {
+      "id": "flashcard22",
+      "title": "TypeScript: Enums",
+      "description": "Describe cómo se utilizan los enums en TypeScript.",
+      "question": "¿Qué son los enums en TypeScript y cómo se utilizan?",
+      "answer": "Los enums en TypeScript permiten definir un conjunto de constantes con nombre. Esto mejora la legibilidad del código y evita errores al usar valores numéricos o de cadena directamente.",
+      "user_id": "user22"
+    },
+    {
+      "id": "flashcard23",
+      "title": "Angular: Lifecycle Hooks",
+      "description": "Describe los lifecycle hooks de los componentes en Angular.",
+      "question": "¿Cuáles son los lifecycle hooks de los componentes en Angular y cuándo se ejecutan?",
+      "answer": "Los lifecycle hooks son métodos especiales en los componentes de Angular que se ejecutan en diferentes momentos de su ciclo de vida, como la creación, la inicialización, la destrucción, etc.",
+      "user_id": "user23"
+    },
+    {
+      "id": "flashcard24",
+      "title": "JavaScript: Prototipos",
+      "description": "Explica el concepto de prototipos en JavaScript.",
+      "question": "¿Qué son los prototipos en JavaScript y cómo funcionan?",
+      "answer": "Los prototipos son un mecanismo de herencia en JavaScript. Cada objeto tiene un prototipo, y puede heredar propiedades y métodos de su prototipo.",
+      "user_id": "user24"
+    },
+    {
+      "id": "flashcard25",
+      "title": "TypeScript: Namespaces",
+      "description": "Describe cómo se utilizan los namespaces en TypeScript.",
+      "question": "¿Qué son los namespaces en TypeScript y cómo se utilizan para organizar el código?",
+      "answer": "Los namespaces en TypeScript se utilizan para agrupar código relacionado, como clases, interfaces y funciones, en un espacio de nombres. Esto ayuda a evitar colisiones de nombres y a organizar el código.",
+      "user_id": "user25"
+    },
+    {
+      "id": "flashcard26",
+      "title": "Angular: Change Detection",
+      "description": "Explica cómo funciona la detección de cambios en Angular.",
+      "question": "¿Cómo detecta Angular los cambios en los datos y actualiza la vista?",
+      "answer": "Angular utiliza un mecanismo de detección de cambios para detectar cambios en los datos de los componentes y actualizar la vista en consecuencia. Esto se hace mediante un proceso de comparación de los valores actuales con los valores anteriores.",
+      "user_id": "user26"
+    },
+    {
+      "id": "flashcard27",
+      "title": "JavaScript: Event Loop",
+      "description": "Explica el concepto de event loop en JavaScript.",
+      "question": "¿Qué es el event loop en JavaScript y cómo funciona?",
+      "answer": "El event loop es un proceso en JavaScript que maneja la ejecución de código asíncrono. Monitoriza la call stack y la callback queue, y ejecuta callbacks cuando la call stack está vacía.",
+      "user_id": "user27"
+    },
+    {
+      "id": "flashcard28",
+      "title": "TypeScript: Type Guards",
+      "description": "Describe cómo se utilizan los type guards en TypeScript.",
+      "question": "¿Qué son los type guards en TypeScript y cómo se utilizan para verificar tipos en tiempo de ejecución?",
+      "answer": "Los type guards en TypeScript son funciones que se utilizan para verificar el tipo de una variable en tiempo de ejecución. Esto permite al compilador inferir el tipo correcto y evitar errores.",
+      "user_id": "user28"
+    },
+    {
+      "id": "flashcard29",
+      "title": "Angular: Animaciones",
+      "description": "Describe cómo se crean animaciones en Angular.",
+      "question": "¿Cómo se crean y utilizan animaciones en Angular?",
+      "answer": "Las animaciones en Angular se crean utilizando el módulo BrowserAnimationsModule. Se definen estados y transiciones entre estados para crear animaciones.",
+      "user_id": "user29"
+    },
+    {
+      "id": "flashcard30",
+      "title": "Angular: Internacionalización",
+      "description": "Explica cómo se implementa la internacionalización en Angular.",
+      "question": "¿Cómo se internacionaliza una aplicación Angular para soportar múltiples idiomas?",
+      "answer": "La internacionalización en Angular se implementa utilizando el módulo Angular i18n. Permite traducir texto, formatear fechas y números, y adaptar la aplicación a diferentes idiomas y culturas.",
+      "user_id": "user30"
+    }
+  ]
+}
