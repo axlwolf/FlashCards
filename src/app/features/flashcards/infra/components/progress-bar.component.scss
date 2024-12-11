@@ -1,0 +1,24 @@
+.progressbar {
+  width: 90%;
+  margin: 0 auto;
+  border: 1px solid var(--gray-700);
+  border-radius: 1rem;
+  padding: 0 1em;
+  position: relative;
+  progress {
+    height: 80px;
+    /* padding: 2rem; */
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  .counter {
+    position: absolute;
+    right: 1.8em;
+    top: 1.8em;
+  }
+
+  .percentage {
+    position: absolute;
+  }
+}

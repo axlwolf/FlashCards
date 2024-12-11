@@ -1,6 +1,6 @@
 import { Routes } from '@angular/router';
 import {SplashScreenComponent} from "./features/splash-screen/infra/components/splash-screen.component";
-import {FlashcardComponent} from "./features/flashcards/infra/components/flashcard.component";
+import {FlashcardsComponent} from "./features/flashcards/infra/components/flashcards.component";
 
 export const routes: Routes = [
   {
@@ -9,6 +9,6 @@ export const routes: Routes = [
   },
   {
     path: 'flashcards',
-    component: FlashcardComponent
+    component: FlashcardsComponent
   }
 ];

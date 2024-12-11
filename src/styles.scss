@@ -1,1 +1,71 @@
 /* You can add global styles to this file, and also import other style files */
+/* reset.css */
+
+/* Resetear estilos predeterminados del navegador */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Lato', sans-serif; /* Fuente base */
+  line-height: 1.6;
+  color: var(--gray-800); /* Color de texto principal */
+  background-color: var(--gray-100); /* Color de fondo */
+}
+
+/* Encabezados */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif; /* Fuente para encabezados */
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+/* Listas */
+ul, ol {
+  list-style: none;
+}
+
+/* Enlaces */
+a {
+  color: var(--blue-500); /* Color de enlace */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Imágenes */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Formularios */
+input, textarea, button {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* Paleta de colores (flat design) */
+:root {
+  --blue-500: #2196F3;
+  --teal-500: #009688;
+  --green-500: #4CAF50;
+  --yellow-500: #FFEB3B;
+  --orange-500: #FF9800;
+  --red-500: #F44336;
+  --purple-500: #9C27B0;
+  --gray-100: #F5F5F5;
+  --gray-300: #E0E0E0;
+  --gray-500: #9E9E9E;
+  --gray-700: #616161;
+  --gray-800: #424242;
+  --gray-900: #212121;
+}

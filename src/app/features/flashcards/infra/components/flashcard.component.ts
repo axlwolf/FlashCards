@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import {Component, Input} from '@angular/core';
+import {Flashcard} from "../../domain/entities/flashcard.interface";
 
 @Component({
   selector: 'app-flashcard',
@@ -8,5 +9,6 @@ import { Component } from '@angular/core';
   styleUrl: './flashcard.component.scss'
 })
 export class FlashcardComponent {
+  @Input() flashCard!: Flashcard;
 
 }

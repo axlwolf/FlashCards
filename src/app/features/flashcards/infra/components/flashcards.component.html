@@ -1,0 +1,8 @@
+<h1>Flash Cards</h1>
+<app-progress-bar />
+<section class="flashcards">
+  <div class="flashcards-container" *ngFor="let flashCard of flashCardsSignal()">
+    <app-flashcard [flashCard]="flashCard"/>
+  </div>
+  <app-navigation />
+</section>
