@@ -1,10 +1,11 @@
 <section class="navigation">
   <nav>
     <ul>
-      <li><i class="fa-solid fa-chevron-left"></i>
-        <a href="">Previuos</a></li>
-      <li>Show answer</li>
-      <li><a href="">Next</a><i class="fa-solid fa-chevron-right"></i>
+      <li>
+        <i class="fa-solid fa-chevron-left"></i>
+        <a (click)="navigationService.previousCard()">Previous</a></li>
+      <li><a (click)="navigationService.toggleAnswer()">Show answer</a></li>
+      <li><a (click)="navigationService.nextCard()">Next</a><i class="fa-solid fa-chevron-right"></i>
       </li>
     </ul>
   </nav>

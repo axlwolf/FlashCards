@@ -1,8 +1,8 @@
 <section class="flashcard">
   <div class="flashcard-question">
-    {{flashCard.question}}
+    {{question}}
   </div>
-  <div class="flashcard-answer">
-    {{flashCard.answer}}
+  <div *ngIf="showAnswer" class="flashcard-answer">
+    {{answer}}
   </div>
 </section>

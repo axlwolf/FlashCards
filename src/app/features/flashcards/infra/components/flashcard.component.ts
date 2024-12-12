@@ -1,14 +1,16 @@
 import {Component, Input} from '@angular/core';
-import {Flashcard} from "../../domain/entities/flashcard.interface";
+import {NgIf} from "@angular/common";
 
 @Component({
   selector: 'app-flashcard',
   standalone: true,
-  imports: [],
+  imports: [NgIf],
   templateUrl: './flashcard.component.html',
   styleUrl: './flashcard.component.scss'
 })
 export class FlashcardComponent {
-  @Input() flashCard!: Flashcard;
+  @Input() question!: string;
+  @Input() answer!: string;
+  @Input() showAnswer!: boolean;
 
 }

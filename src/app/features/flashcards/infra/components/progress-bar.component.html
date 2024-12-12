@@ -4,10 +4,10 @@
   </div>
   <progress
     min="0"
-    max="100"
-    value="60"
+    [value]="'0'"
+    [max]="'0'"
     #progressElement></progress>
-    <div class="counter">
-      5 of 30
-    </div>
+  <div class="counter">
+    {{ currentCard }} of {{ 30 }}
+  </div>
 </div>
