@@ -1,8 +1,11 @@
-<section class="flashcard">
-  <div class="flashcard-question">
-    {{question}}
+<section
+  class="flashcard"
+  [@cardFlip]="showAnswer ? 'showAnswer' : 'hideAnswer'"
+>
+  <div *ngIf="!showAnswer" class="flashcard-question">
+    {{ question }}
   </div>
   <div *ngIf="showAnswer" class="flashcard-answer">
-    {{answer}}
+    {{ answer }}
   </div>
 </section>

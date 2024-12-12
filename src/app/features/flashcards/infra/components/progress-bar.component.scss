@@ -15,10 +15,12 @@
   .counter {
     position: absolute;
     right: 1.8em;
-    top: 1.8em;
+    top: 0em;
   }
 
   .percentage {
     position: absolute;
+    left: 1.8em;
+    top: 1.8em;
   }
 }

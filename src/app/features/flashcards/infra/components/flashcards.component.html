@@ -1,8 +1,13 @@
 <h1>Flash Cards</h1>
-<app-progress-bar [totalCards]="navigationService.totalCards" [currentCard]="navigationService.currentCard" />
+<app-progress-bar
+  [totalCards]="navigationService.totalCards"
+  [currentCard]="navigationService.currentCard"
+/>
 <section class="flashcards">
-  <div class="flashcards-container" *ngFor="let flashCard of flashCardsSignal()">
-    <app-flashcard [showAnswer]="navigationService.showAnswer()" [question]="navigationService.currentQuestion" [answer]="navigationService.currentAnswer"/>
-  </div>
+  <app-flashcard
+    [showAnswer]="navigationService.showAnswer()"
+    [question]="navigationService.currentQuestion"
+    [answer]="navigationService.currentAnswer"
+  />
   <app-navigation />
 </section>
