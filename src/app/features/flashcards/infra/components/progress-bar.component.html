@@ -1,13 +1,5 @@
 <div class="progressbar">
-  <div class="percentage">
-    25%
-  </div>
-  <progress
-    min="0"
-    [value]="'0'"
-    [max]="'0'"
-    #progressElement></progress>
-  <div class="counter">
-    {{ currentCard }} of {{ 30 }}
-  </div>
+  <progress min="0" [value]="percentage" [max]="100" #progressElement></progress
+  ><span class="percentage" #percentageElement>{{ percentage }}%</span>
+  <div class="counter">{{ currentCard }} of {{ totalCards }}</div>
 </div>
